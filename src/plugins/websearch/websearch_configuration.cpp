@@ -59,7 +59,7 @@ namespace seeks_plugins
    void websearch_configuration::set_default_config()
      {
         _lang = "auto";
-        _N = 10;
+        _Nr = 10;
         _thumbs = false;
         _se_enabled.set(); // all engines is default.
         _query_context_delay = 300; // in seconds, 5 minutes.
